@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Comp 3100 Project</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./fonts/font.css" data-tag="font" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/login.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div>
+      <div class="login-container">
+        <header data-role="Header" class="login-header">
+          <img
+            alt="logo"
+            src="./resourses/images/MUN_logo.png"
+            class="login-logo"
+          />
+          <div class="login-nav"></div>
+          <h1 class="login-text">Student Self-Service</h1>
+        </header>
+        <div class="login-main-container">
+          <div class="login-login-container">
+            <h1 class="login-login-heading">Account Login</h1>
+            <form class="login-login-form">
+              <span class="login-username-text">Username</span>
+              <input
+                type="text"
+                id="login-username"
+                placeholder="username"
+                class="login-username-input input"
+              />
+              <span class="login-password-text">Password</span>
+              <input
+                input type = "password"
+                id="login-password"
+                placeholder="password"
+                class="login-password-input input"
+              />
+              <span id="error-message" class="login-username-err">error</span>
+              <button id="login-btn" class="login-loginbtn button">Login</button>
+              <output id="login-attempt"></output>
+            </form>
+            <div class="login-account-container">
+              <button id="create-btn" class="login-createbtn button">Create Account</button>
+              <button id="forgot-btn" class="login-forgotbtn button">Forgot Password?</button>
+            </div>
+          </div>
+        </div>
+        <footer class="login-footer">
+          <div class="login-separator"></div>
+          <span class="login-text1">2023 COMP 3100 PROJECT</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./js/login.js"></script>  
+</html>

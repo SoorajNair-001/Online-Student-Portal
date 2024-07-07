@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home - Comp 3100 Project</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./fonts/font.css" data-tag="font" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div>
+
+      <div class="home-container">
+        <header data-role="Header" class="home-header">
+          <img
+            alt="logo"
+            src="./resourses/images/MUN_logo.png"
+            class="home-logo"
+          />
+          <div class="home-nav"></div>
+          <h1 class="home-text">Student Self-Service</h1>
+        </header>
+        <div class="top-pnl"> 
+          <div class="toptext-container">
+            <span class="home-text01">Course Registration Portal</span>
+          </div>
+          <button id="home-logoutbtn" class="home-logoutbtn button">Logout</button>
+        </div>
+        <div class="home-main-container">
+          <div class="home-left-panel">
+            <div class="home-top-container">
+              <div class="home-term-container">
+                <select class="home-select">
+                  <option value="winter_2022_2023">Winter 2022-2023</option>
+                </select>
+              </div>
+              <div class="home-accountcontainer">
+                <img
+                  alt="image"
+                  src="./resourses/images/account_logo.png"
+                  class="home-acc-icon"
+                />
+                <div class="home-accleft">
+                  <div class="home-stname">
+                    <span>Name:&nbsp;&nbsp;</span>
+                    <label id="nameLbl" class="home-namelbl">&lt;name&gt;</label>
+                  </div>
+                  <div class="home-userid">
+                    <span>User ID:&nbsp;&nbsp;</span>
+                    <label id="usernameLbl" >&lt;username&gt;</label>
+                  </div>
+                  <div class="home-stno">
+                    <span>Std. No. :&nbsp;&nbsp;</span>
+                    <label id="stdNumLbl">&lt;std_num&gt;</label>
+                  </div>
+                </div>
+                <div class="home-accright">
+                  <div class="home-degree">
+                    <span>Level:&nbsp; &nbsp;</span>
+                    <label id="levelLbl">&lt;level&gt;</label>
+                  </div>
+                  <div class="home-majors">
+                    <span>Major(s):&nbsp;&nbsp;</span>
+                    <label id="majorLbl">&lt;major&gt;</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-searchcontainer">
+              <iframe
+                src="./courses.html"
+                allowfullscreen=""
+                id="course-iframe"
+                class="home-search-courseframe"
+              ></iframe>
+            </div>
+            <div class="home-pincoursescontainer">
+              <div class="pinned-course-lbl">
+                <span class="home-text02">Pinned Courses</span>
+                <button style="background-color: rgb(0, 188, 19);">A</button><span>-Available/Open</span>
+                <button style="background-color: #FFEF00;">W</button><span>-Warning/Almost full</span>
+                <button style="background-color: red;">C</button><span>-Closed/Full</span>
+              </div>
+              <div class="home-container1">
+                <ul class="pinned-course-list list">
+                  <li id="pinCourses" class="list-item">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="home-right-panel">
+            <div class="home-actions-panel">
+              <div class="home-container2">
+                <iframe
+                  src="./actions.html"
+                  allowfullscreen=""
+                  id="actions-iframe"
+                  class="home-iframe"
+                ></iframe>
+              </div>
+            </div>
+            <div class="home-container3">
+              <button id="print-schedule-btn" class="home-printbtn1 button">Print Schedule</button>
+            </div>
+            <div class="home-container4">
+                <iframe
+                  src="./schedule.html"
+                  allowfullscreen=""
+                  id="schedule-iframe"
+                  class="home-iframe"
+                ></iframe>
+            </div>
+
+          </div>
+        </div>
+        <footer class="home-footer">
+          <div class="home-separator"></div>
+          <span class="home-text10">2023 COMP 3100 PROJECT</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./js/home.js"></script> 
+</html>

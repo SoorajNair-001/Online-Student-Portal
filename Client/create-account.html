@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CreateAccount - Comp 3100 Project</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./fonts/font.css" data-tag="font" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/create-account.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div>
+      <div class="create-account-container">
+        <header data-role="Header" class="create-account-header">
+          <img
+            alt="logo"
+            src="./resourses/images/MUN_logo.png"
+            class="create-account-logo"
+          />
+          <div class="create-account-nav"></div>
+          <h1 class="create-account-text">Student Self-Service</h1>
+        </header>
+        <div class="create-account-container01">
+          <div class="create-account-main-container">
+            <div class="create-account-create-container">
+              <h1 class="create-account-create-heading">Create Account</h1>
+              <form class="create-account-create-form">
+                <span class="create-account-name">Name</span>
+                <input
+                  type="text"
+                  id="create-fullname"
+                  placeholder="full name"
+                  class="create-account-name-input input"
+                />
+                <span class="create-account-std-num-text">
+                  <span>Student Number</span>
+                  <br />
+                </span>
+                <input
+                  type="text"
+                  id="create-stdNum"
+                  placeholder="student number"
+                  class="create-account-std-num-input input"
+                />
+                <div class="create-account-academic-container">
+                  <div class="create-account-container02">
+                    <div class="create-account-container03"></div>
+                  </div>
+                </div>
+                <div class="create-account-container04">
+                  <span class="create-account-username-text">Level&nbsp;</span>
+                  <select id="create-level-select" class="create-account-select">
+                    <option value="- select level -" selected="">
+                      - select level -
+                    </option>
+                    <option value="undergraduate">undergraduate</option>
+                    <option value="graduate">graduate</option>
+                  </select>
+                  <span class="create-account-username-text1">Major&nbsp;</span>
+                  <input
+                    type="text"
+                    id="create-major"
+                    placeholder="major"
+                    class="create-account-textinput input"
+                  />
+                </div>
+                <div class="create-account-container05">
+                  <div class="create-account-container06">
+                    <div class="create-account-container07"></div>
+                  </div>
+                </div>
+                <span class="create-account-username-text2">Username</span>
+                <input
+                  type="text"
+                  id="create-username"
+                  placeholder="username"
+                  class="create-account-username-input input"
+                />
+                <div class="create-account-container08">
+                  <div class="create-account-container09">
+                    <div class="create-account-container10">
+                      <span class="create-account-password-text">
+                        New Password
+                      </span>
+                      <input
+                        input type="text"
+                        id="create-password"
+                        placeholder="password"
+                        class="create-account-password-input input"
+                      />
+                    </div>
+                    <div class="create-account-container11">
+                      <span class="create-account-password-text1">
+                        Confirm Password
+                      </span>
+                      <input
+                        input type="password"
+                        id="create-confirm-password"
+                        placeholder="confirm password"
+                        class="create-account-password-input1 input"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <span id="create-error-message" class="create-username-err">error</span>
+                <button id="create-account-btn" class="create-account-loginbtn button">
+                  Create Account
+                </button>
+              </form>
+              <div class="create-account-account-container"></div>
+            </div>
+          </div>
+        </div>
+        <footer class="create-account-footer">
+          <div class="create-account-separator"></div>
+          <span class="create-account-text3">2023 COMP 3100 PROJECT</span>
+        </footer>
+      </div>
+    </div>
+    <script type="module" src="./js/create_account.js"></script> 
+  </body>
+</html>

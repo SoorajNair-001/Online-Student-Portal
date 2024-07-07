@@ -1,0 +1,135 @@
+Course Offerings: 2022-2023 Winter
+
+
+Level: Undergraduate
+
+
+
+Campus: St. John's                    
+
+Session: Full Term
+
+                                                     *** DAYS ***  BEG  END          SCHED INST ASSOC LAB/      WAIT PRE RESV       CRED BILL                                 
+                 COURSE               SEC CRN   SLOT M T W R F S U TIME TIME  ROOM   TYPE  METH LEC SECT   PHON LIST CHK LFTD ATTR   HR   HR  INSTRUCTOR                      
+                 ------               --- ----- ---- ------------- ---- ---- ------- ----- ---- ---------- ---- ---- --- ---- ----- ---- ---- ----------                                  
+
+
+Subject: Computer Science              
+
+COMP 1001 Intro to Programming        001 87522 20     T   R       1530 1645 IIC2001  LEC   IP      003 004     Y Y  Y   N    Y   Q       3    3  Primary - G Miminis          
+                                          RESERVED  FOR: DEGREE BS     BS                                                                                                      
+                                                         MAJOR  MATH   PHYS                                                                                                    
+                                          This course is open to all MUN students. Only a small numberof seats are reserved for physics and math.                              
+                                      002 97093 07   M   W   F     1400 1450 EN 1054  LEC   IP      056         Y Y  Y   N        Q       3    3  Primary - S McIntyre         
+COMP 1001 Laboratory                  003 98518 65           F     1400 1650 CS 1009  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - G Miminis          
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+                                      004 98299 42     T           0900 1150 CS 1009  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - G Miminis          
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+                                      056 98300 83       W         1900 2150 CS 1009  LAB   IP      002         Y Y  N   N        Q       0   NA  Primary - S McIntyre         
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+COMP 1002 Intro to Logic for Comp Sci 001 86879 16     T   R       1200 1250 ED 1020  LEC   IP      002 057 056 Y Y  Y   N        Q       3    3  Primary - A Fiech            
+                                                                                            003                                                                                
+                                                16           F     1300 1350 ED 1020                                                                                           
+                                          Blended delivery mode-up to six lectures will be delivered remotely.                                                                 
+COMP 1002 Laboratory                  002 98303 43       W         0900 1150 CS 1009  LAB   IP      001         Y Y  Y   N        Q       0   NA  Primary - A Fiech            
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+                                      003 98304 44         R       0900 1150 CS 1009  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - A Fiech            
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+                                      056 98305 81   M             1900 2150 CS 1009  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - A Fiech            
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+                                      057 98306 82     T           1900 2150 CS 1009  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - A Fiech            
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+COMP 1003 Foundations of Computing Sy 001 92196 05   M   W   F     1200 1250 SN 2109  LEC   IP      003 002     Y Y  Y   Y        Q       3    3  Primary - S Anthony          
+COMP 1003 Laboratory                  002 94098 64         R       1400 1650 CS 1009  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - S Anthony          
+                                          Labs will be held in CS 1009 & CS 1019.                                                                                              
+                                      003 97555 45           F     0900 1150 CS 1009  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - S Anthony          
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+COMP 2001 Obj-Orient Prgm Human Comp  001 88652 18     T   R       1030 1145 EN 2007  LEC   IP      002         Y Y  Y   Y    Y   Q       3    3  Primary - X Jiang            
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+COMP 2001 Laboratory                  002 98308 61   M             1400 1650 CS 1009  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - X Jiang            
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+COMP 2002 Data Strctrs & Algorithms   001 88655 03   M   W   F     1000 1050 EN 2007  LEC   IP      002         Y Y  Y   Y    Y   Q       3    3  Primary - Q Ye               
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH           BS     BS     BS                                                     
+                                                         MAJOR  COMP   COMP   COMP          COMP          CSDC   CSSS   CSVG                                                   
+                                                         MINOR                       COMP          COMP                                                                        
+COMP 2002 Laboratory                  002 98310 63       W         1400 1650 CS 1009  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - Q Ye               
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+COMP 2003 Computer Architecture       001 88657 04   M   W   F     1100 1150 EN 2007  LEC   IP      002         Y Y  Y   Y    Y   Q       3    3  Primary - R Arunthavana      
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+COMP 2003 Laboratory                  002 98312 62     T           1400 1650 CS 1009  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - R Arunthavana      
+                                          Labs will be held in CS 1009 and 1019.                                                                                               
+COMP 2004 Intro to Operating Systems  001 88659 05   M   W   F     1200 1250 EN 2040  LEC   IP                  Y Y  Y   Y    Y   Q       3    3  Primary - V Prado da Fo      
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+COMP 2005 Software Engineering        001 88683 16     T   R       1200 1250 EN 1054  LEC   IP                  Y Y  Y   Y    Y   Q       3    3  Primary - M Hatcher          
+                                                16           F     1300 1350 EN 1054                                                                                           
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+                                          COMP 2005 requires participation in assessed group work.                                                                             
+COMP 2006 Computer Networking         001 88687      M             1300 1350 EN 2040  LEC   IP                  Y Y  Y   Y    Y   Q       1    1  Primary - M Hatcher          
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+                                          One-credit hr course taught on Mondays, with CS2007 taught on Tuesdays and CS2008 taught on Thursdays.                               
+COMP 2007 Intro to Inform Management  001 88694        T           1300 1350 EN 2040  LEC   IP                  Y Y  Y   Y    Y   Q       1    1  Primary - M Hatcher          
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+                                          One-credit hr course taught on Tuesdays, with CS2006 taught  on Mondays and CS2008 taught on Thursdays.                              
+COMP 2008 Social Issues & Prof Practi 001 88693            R       1300 1350 EN 2040  LEC   IP                  Y Y  Y   Y    Y   Q       1    1  Primary - M Hatcher          
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+                                          One-credit hr course taught on Thursdays, with CS2007 taught on Mondays and CS2007 taught on Tuesdays.                               
+COMP 3100 Web Programming             001 91270 02   M   W   F     0900 0950 C  2004  LEC   IP                  Y Y  Y   Y    Y           3    3  Primary - E Brown            
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+                                          Blended delivery mode. Up to half of the lectures will be delivered remotely.                                                        
+COMP 3201 Nature-Inspired Computing   001 98314 04   M   W   F     1100 1150 EN 2040  LEC   IP                  Y Y  Y   Y    Y   Q       3    3  Primary - M Hatcher          
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+COMP 3202 Intro to Machine Learning   001 90450 20     T   R       1530 1645 EN 2043  LEC   IP                  Y Y  Y   Y    Y   Q       3    3  Primary - K Popuri           
+                                          CROSS LISTED:    COMP 6915-001                                                                                                       
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+COMP 3300 Interactive Technologies    001 98316 05   M   W   F     1200 1250 EN 1051  LEC   IP                  Y Y  Y   Y    Y           3    3  Primary - N Nasr Esfaha      
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+COMP 3600 Alg. Design & Analysis      001 98711 17     T   R       0900 1015 EN 2040  LEC   IP                  Y Y  Y   Y    Y           3    3  Primary - H Wareham          
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BSH           BA     BAH    BS     BSH    BA     BAH    BS     BSH    BA     BAH          
+                                                         MAJOR  COMP   COMP   COMP   COMP          CSDC   CSDC   CSDC   CSDC   CSSS   CSSS   CSSS   CSSS   CSVG   CSVG         
+                                                         MINOR                              COMP                                                                               
+COMP 3700 Industrial Experience       001 63029 99                                    INT   IP                  A A  N   N        Q       0   NA                               
+COMP 4301 Computer Vision             001 90962 03   M   W   F     1000 1050 EN 2040  LEC   IP      002         Y Y  Y   Y        Q       3    3  Primary - M Hamilton         
+                                          CROSS LISTED:    ECE  8410-001                                                                                                       
+COMP 4301 Laboratory                  002 98318 91   M             1700 1850 CSF2112  LAB   IP      001         Y Y  N   N        Q       0   NA  Primary - M Hamilton         
+COMP 4303 AI in Computer Games        001 92202 18     T   R       1030 1145 EN 1054  LEC   R                   Y Y  Y   Y    Y   Q       3    3  Primary - D Churchill        
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+                                          Remote Delivery                                                                                                                      
+COMP 4304 Data Visualization          001 98322 08   M   W   F     1500 1550 C  2004  LEC   IP                  Y Y  Y   Y    Y   Q       3    3  Primary - T Tricco           
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+COMP 4742 Computational Complexity    001 98324 09   M   W   F     1600 1650 EN 1054  LEC   IP                  Y Y  Y   Y    Y   Q       3    3  Primary - N Fleming          
+                                          CROSS LISTED:    COMP 6902-001                                                                                                       
+                                          RESERVED  FOR: DEGREE BA     BAH    BS     BS     BSH    BS     BS     BS                                                            
+                                                         MAJOR  COMP   COMP   COMP          COMP   CSDC   CSSS   CSVG                                                          
+                                                         MINOR                       COMP                                                                                      
+COMP 4780 Honours Project             001 60314 99                                    HES   IS                  D D  N   N    N   Q       3    3                               
+                                          RESERVED  FOR: DEGREE BAH    BSH                                                                                                     
+                                                         MAJOR  COMP   COMP                                                                                                    
+
+
+                                                                                                 

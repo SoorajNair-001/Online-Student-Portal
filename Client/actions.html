@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Actions - Comp 3100 Project</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./fonts/font.css" data-tag="font" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/actions.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div>
+      <div class="actions-container">
+        <button id="reload" class="reload">AA</button>
+        <div class="actions-main-container">
+          <div class="actions-content-container">
+            <span class="actions-text">Current Courses</span>
+            <div class="actions-curr-container">
+              <ul class="actions-curr-course-list list">
+                <li id="currentCourses" class="list-item">
+                </li>
+              </ul>
+            </div>
+            <div class="actions-credits-container">
+              <div class="actions-container1">
+                <span>Credit Hours:&nbsp;&nbsp;</span>
+                <span id="actions-credits"></span>
+              </div>
+              <span>Max-hours:&nbsp; 15</span>
+            </div>
+            <div class="actions-drop-container">
+              <button id="course-drop-btn" class="actions-dropbtn button">DROP</button>
+            </div>
+          </div>
+          <div class="actions-actions-container">
+            
+            <span class="actions-text16">Add Courses</span>
+            <div class="actions-container2">
+              <input id="add-course-textCrn" type="text" placeholder="enter CRN" class="input" />
+            </div>
+            <span id="error-message" class="add-err">err</span>
+            <button id="add-courseBtn" class="actions-add-actionbtn button">ADD</button>
+            <span class="actions-text16">Actions Required</span>
+            <!--Conflict-->
+            <span id="no-conflict-text" class="actions-text17">No actions required</span>
+            <div id="actions-conflict-container" class="actions-conflict-container">
+              <span class="actions-text26">Error! Time Conflicts</span>
+              <ul class="actions-conflicts-list list">
+                <li class="actions-li21 list-item">
+                  <span id="conflict-text">conflict</span>
+                </li>
+              </ul>
+              <div class="conlict-btn-container">
+                <button id="remove-btn" class="actions-button09 button">clear</button>
+                <button id="override-btn" class="actions-button10 button">override</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./js/actions.js"></script> 
+</html>

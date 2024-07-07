@@ -1,0 +1,122 @@
+.courses-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f8f9fa;
+}
+.courses-main-container {
+  width: 628px;
+  height: 600px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.courses-search-container {
+  width: 100%;
+  height: 73px;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  padding-left: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.courses-select {
+  width: 180px;
+  height: 40px;
+  border-color: #000000;
+  border-width: 2px;
+  margin-right: 219px;
+}
+.courses-container1 {
+  flex: 0 0 auto;
+  width: 212px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 4px;
+  flex-direction: column;
+}
+.courses-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.course-conflict-lbl{
+  font-weight: bold;
+  font-size:large;
+  color: orange;
+  margin-right: 5px;
+}
+.courses-search-icon {
+  width: 25px;
+  height: 25px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-halfunit);
+}
+.course-status-lbl{
+  background-color: green;
+}
+.courses-search-input {
+  width: 162px;
+  height: 40px;
+  align-self: flex-start;
+  background-color: rgba(217, 217, 217, 0.36);
+}
+.course-sections-btn{
+  width: 120px;
+  height: 25px;
+  border-color: rgba(0, 0, 0, 0.36);
+  border-width: 2px;
+  align-self: flex-start;
+  background-color: rgba(217, 217, 217, 0.36);
+}
+.course-details-btn{
+  width: 70px;
+  height: 25px;
+  border-color: rgba(0, 0, 0, 0.36);
+  border-width: 2px;
+  align-self: flex-start;
+  margin-right: 5px;
+  background-color: rgba(217, 217, 217, 0.36);
+}
+.course-back-btn{
+  width: 120px;
+  height: 25px;
+  border-width: 2px;
+  align-self: flex-start;
+  margin-right: 150px;
+  color: var(--dl-color-gray-white);
+  border-color: var(--dl-color-primary-300);
+  background-color: var(--dl-color-primary-300);
+}
+.sections-top{
+  font-weight: bold;
+}
+li{
+  margin: 20px 0;
+  white-space: pre;
+}
+
+.popContainer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  display: none;
+}
+.course-det-iframe {
+  width: 100%;
+  height: 100%;
+}

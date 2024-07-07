@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Courses - Comp 3100 Project</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./fonts/font.css" data-tag="font" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/courses.css"/>
+    <link rel="stylesheet" href="./css/course-details.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <div id="courses-container" class="courses-container">
+        <div id="course-details-container" class="course-details-container">
+          <div class="course-details-container01">
+            <div class="course-details-container02">
+              <label id="det-subject" class="course-details-text">&lt;subject&gt;</label>
+              <label id="det-number" class="course-details-text01">&lt;number&gt;</label>
+              <label id="det-name" class="course-details-text02">&lt;name&gt;</label>
+            </div>
+            <div class="course-details-container03">
+              <label id="det-section" class="course-details-text03">&lt;section&gt;</label>
+            </div>
+            <div class="course-details-container04">
+              <div class="course-details-container05">
+                <b>CRN:</b>
+                <label id="det-crn" class="details-labels">&lt;crn&gt;</label>
+              </div>
+              <div class="course-details-container06">
+                <b>Slot:</b>
+                <label id="det-slot" class="details-labels">&lt;slot&gt;</label>
+              </div>
+              <div class="course-details-container07">
+                <b>Room:</b>
+                <label id="det-room" class="details-room-labels">&lt;room&gt;</label>
+              </div>
+              <div class="course-details-container08">
+                <b>Type:</b>
+                <label id="det-type" class="details-labels">&lt;type&gt;</label>
+              </div>
+            </div>
+            <div class="course-details-container09">
+              <div class="course-details-container10">
+                <b>Credits:</b>
+                <label id="det-credits" class="details-labels">&lt;credits&gt;</label>
+              </div>
+              <div class="course-details-container11">
+                <b>Instructors:</b>
+                <label id="det-instructors" class="details-labels">&lt;instructors&gt;</label>
+              </div>
+            </div>
+            <div class="course-details-container13">
+              <div class="course-details-container14">
+                <!-- CHART -->
+                <div id="card-container" class="card-container">
+                  <canvas id="doughnut-chart"></canvas>
+                </div>
+              </div>
+              <div class="course-details-container30">
+                <div class="course-details-container12">
+                  <b>Times:</b>
+                  <div class="details-times">
+                    <label id="det-times">&lt;times&gt;</label>
+                  </div>
+                </div>
+                <div class="course-details-container15">
+                  <div class="course-details-container16">
+                    <div class="course-details-container17">
+                      <b>Act:</b>
+                      <label id="det-act" class="details-labels">&lt;act&gt;</label>
+                    </div>
+                    <div class="course-details-container18">
+                      <b>Cap:</b>
+                      <label id="det-cap" class="details-labels">&lt;cap&gt;</label>
+                    </div>
+                    <div class="course-details-container19">
+                      <b>Rem:</b>
+                      <label id="det-rem" class="details-labels">&lt;rem&gt;</label>
+                    </div>
+                  </div>
+                  <div class="course-details-container20">
+                    <div class="course-details-container21">
+                      <b>WL Act:</b>
+                      <label id="det-wlact" class="details-labels">&lt;act&gt;</label>
+                    </div>
+                    <div class="course-details-container22">
+                      <b>WL Cap:</b>
+                      <label id="det-wlcap" class="details-labels">&lt;cap&gt;</label>
+                    </div>
+                    <div class="course-details-container23">
+                      <b>WL Rem:</b>
+                      <label id="det-wlrem" class="details-labels">&lt;rem&gt;</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="course-details-container24">
+              <div class="course-details-container25">
+                <button id="det-back-btn" class="course-details-button button">Back</button>
+                <button id="det-pinCourse-btn" class="course-details-button2 button">Pin course</button>
+              </div>
+              <div id="course-details-container40" class="course-details-container40">
+                <span>Pin limit 3 reached.</span>
+              </div>
+              <div class="course-details-container26">
+                <button id="det-add-btn" class="course-details-button1 button">Add course</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="courses-main-container" class="courses-main-container">
+          <div class="courses-search-container">
+            <select id="subject-dropdown" class="courses-select">
+              <option value="subject" selected="">- look up courses -</option>
+            </select>
+            <div class="courses-container1">
+              <div class="courses-container2">
+                <img
+                  alt="image"
+                  src="./resourses/images/search_logo.png"
+                  class="courses-search-icon"
+                />
+                <input
+                  type="text"
+                  placeholder="search course"
+                  id="course-search-input"
+                  class="courses-search-input input"
+                />
+              </div>
+            </div>
+          </div>
+            <ul id="coursesList" class="look-up-all-courses-ul list">
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="./js/courses.js"></script> 
+</html>
